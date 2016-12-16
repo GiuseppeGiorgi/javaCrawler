@@ -13,9 +13,14 @@ Per usare il progetto su un qualsiasi sito web basta configurare il file config/
    * timeout = tempo di attesa durante la connessione a una url
    * useragent = user agent con cui il crawler visita il sito (inserendo quello di google al server risulta che lo stia visitando il crawler google)
    * useragent-robots = serve per dire al robots le regole di quale user agent deve applicare
+   * tag = elenco dei tag che devono essere salvati nel log
    * local-robots = serve se si vuole leggere le regole da un file robots.txt salvato in  locale oppure su un altro dominio 
    * word = cerca quella keyword su tutte le pagine visitate e nel file di log scrive se per quella pagina è stata trovata oppure no
-
+ 
+* la liste dei tag da cercare deve essere separata da ; e deve avere questa forma: 
+  * https://jsoup.org/cookbook/extracting-data/selector-syntax
+  * per esempio : tag = title;meta[name=description];h1
+  * vengono cercati i tag title, h1, per selezionare la meta description bisogna scrivere in quella forma cioè tutte le meta che hanno nome description
 
 
 
