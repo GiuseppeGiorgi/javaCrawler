@@ -1,0 +1,12 @@
+#File ignore
+*.csv
+*.class
+*.jar
+*.log
+.classpath
+.DS_STORE
+.project
+javadocs/
+.settings/
+log/
+target/
