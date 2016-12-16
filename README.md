@@ -23,6 +23,18 @@ Per usare il progetto su un qualsiasi sito web basta configurare il file config/
   * vengono cercati i tag title, h1, per selezionare la meta description bisogna scrivere in quella forma cioè tutte le meta che hanno nome description
 
 
+## Logica
+il crawler segue questa logica:
+
+1. inizia a scansionare la prima url, salvando in un file tutti i tag scelti e in una lista tutte le url che si vogliono scansionare
+2. ogni volta che una url è stata scansionata viene salvata in un altra lista cosi da non essere piu scansionata
+3. per ogni url presa dalla lista delle url da scansionare controlla se puo essere scansionata
+  * controlla se la url è gia stata scansionata (la butta via)
+  * controlla le regole del robots.txt 
+4. per ogni pagina vengono salvati dei dati su dei file:
+  * file report: url , url padre, tag, key-word (trovata o no)
+  * file respons: url, url padre, response-code, tempo di caricamento
+  * file : error: se ci sono degli errori, come code-response:404
 
 
 ## Uml
