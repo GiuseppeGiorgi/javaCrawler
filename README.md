@@ -7,4 +7,4 @@
 
 ## Uml
 
-  <img src="/UML/diagram.jpg" width="500"/>  
+  <img src="/UML/diagram.png" width="500"/>  
