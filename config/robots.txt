@@ -18,4 +18,3 @@ User-Agent: Mediapartners-Google
 Disallow:
 User-Agent: *
 Allow: /
-Sitemap: http://www.bakeca.it/sitemap.xml
