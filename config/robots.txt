@@ -1,0 +1,21 @@
+# www
+User-Agent: Googlebot
+User-Agent: Slurp
+User-Agent: bingbot
+Allow: /
+Disallow: */SBSPONS/*
+Disallow: */be/*
+Disallow: */nope/true/*
+Disallow: /info/antitruffe/
+Disallow: */tutte-le-categorie/*
+Disallow: /www/cli.php
+Disallow: /www/cls.php
+Disallow: /www/index.php
+Disallow: */gestione/*
+User-Agent: MJ12bot
+Allow: /
+User-Agent: Mediapartners-Google
+Disallow:
+User-Agent: *
+Allow: /
+Sitemap: http://www.bakeca.it/sitemap.xml
