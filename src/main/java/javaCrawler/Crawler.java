@@ -8,6 +8,9 @@ import org.jsoup.select.Elements;
 
 
 
+/**
+* @author Giuseppe Giorgi <giuseppe.giorgi1987@gmail.com>
+*/
 
 
 public class Crawler extends AbstractCrawler{
