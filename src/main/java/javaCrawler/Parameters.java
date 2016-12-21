@@ -2,6 +2,10 @@ package javaCrawler;
 
 import java.util.ArrayList;
 
+/**
+* @author Giuseppe Giorgi <giuseppe.giorgi1987@gmail.com>
+*/
+
 public interface Parameters {
 	
 	/**********************************parameters on the file .properties*******************/
