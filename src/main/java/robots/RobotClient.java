@@ -13,8 +13,9 @@ import java.net.URLDecoder;
 import java.util.prefs.BackingStoreException;
 
 
-
 /**
+ * @author Giuseppe Giorgi <giuseppe.giorgi1987@gmail.com>
+ *
  * check if a URL is allow or disallow
  * */
 public class RobotClient extends RulesEngine {
