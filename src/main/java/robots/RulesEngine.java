@@ -4,8 +4,9 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-
 /**
+ * @author Giuseppe Giorgi <giuseppe.giorgi1987@gmail.com>
+ *
  * Contiene una serie di regole per decidere 
  * se è allowed oppure no
  * */
