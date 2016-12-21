@@ -7,12 +7,10 @@ import java.util.Properties;
 
 
 /**
- * 
- * @author Giuseppe
- *
- *
- *Singleton : Bill Pugh technique
- */
+* @author Giuseppe Giorgi <giuseppe.giorgi1987@gmail.com>
+*
+* Singleton : Bill Pugh technique
+*/
 public class ReadProperties {
 	
 	private static final String fileName = "config/parametri.properties";
