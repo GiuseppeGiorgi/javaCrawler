@@ -9,12 +9,14 @@ import robots.RobotClient;
 
 
 /**
+ * @author Giuseppe Giorgi <giuseppe.giorgi1987@gmail.com>
+ *
+ *
  * crea un unica istanza di robots per ogni sotto dominio e la salva in una map
  * questo serve per non creare istanze con lo stesso robots
  * quando arriva una url con un dominio il cui robots è gia stato parserizzato
  * prende direttamente quelle regole senza parserizzare ogni volta il robots
  * 
- * @author Giuseppe
  *
  *Singleton : Bill Pugh technique
  */
