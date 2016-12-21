@@ -8,7 +8,9 @@ import java.util.Date;
 import javaCrawler.Parameters;
 import javaCrawler.Url;
 
-
+/**
+ * @author Giuseppe Giorgi <giuseppe.giorgi1987@gmail.com>
+ */
 
 public abstract class AbstractLog implements Log<Url> {
 	
