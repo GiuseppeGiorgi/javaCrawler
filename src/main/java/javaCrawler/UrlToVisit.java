@@ -4,12 +4,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 
+
 /**
- * 
- * @author Giuseppe
- *
- *Singleton : Bill Pugh technique
- */
+* @author Giuseppe Giorgi <giuseppe.giorgi1987@gmail.com>
+*
+* Singleton : Bill Pugh technique
+*/
 public class UrlToVisit{
 	
 	private Map<String, Record> linkToVisit = new HashMap<String, Record>();
