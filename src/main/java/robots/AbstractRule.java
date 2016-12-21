@@ -3,6 +3,9 @@ package robots;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * @author Giuseppe Giorgi <giuseppe.giorgi1987@gmail.com>
+ */
 
 public abstract class AbstractRule implements Rule {
 
