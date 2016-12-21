@@ -1,5 +1,9 @@
 package javaCrawler;
 
+/**
+* @author Giuseppe Giorgi <giuseppe.giorgi1987@gmail.com>
+*/
+
 public abstract class Record {
 	
 	/**
