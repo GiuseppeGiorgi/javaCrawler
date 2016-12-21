@@ -6,11 +6,10 @@ import java.util.Set;
 
 
 /**
- * 
- * @author Giuseppe
- *
- *Singleton : Bill Pugh technique
- */
+* @author Giuseppe Giorgi <giuseppe.giorgi1987@gmail.com>
+*
+* Singleton : Bill Pugh technique
+*/
 public class UrlVisited {
 	
 	private Set<String> linkVisited = new HashSet<String>();
