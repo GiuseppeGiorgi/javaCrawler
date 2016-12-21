@@ -2,11 +2,14 @@ package javaCrawler;
 
 import java.util.ArrayList;
 
+/**
+* @author Giuseppe Giorgi <giuseppe.giorgi1987@gmail.com>
+*/
+
 public class Url extends Record {
 	
 	
-		private String parent = "NULL";
-
+	    private String parent = "NULL";
 	    private ArrayList<String> tag = new ArrayList<String>();
 	    private int responsCode = 0;
 	    private long responseTime = 0;
