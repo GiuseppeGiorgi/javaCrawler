@@ -4,6 +4,10 @@ import report.Error;
 import report.Report;
 import report.Respons;
 
+/**
+* @author Giuseppe Giorgi <giuseppe.giorgi1987@gmail.com>
+*/
+
 public class SpiderManager {
 	
 	public SpiderManager(String url){
