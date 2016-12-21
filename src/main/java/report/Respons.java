@@ -8,8 +8,8 @@ import java.io.IOException;
 import javaCrawler.Url;
 
 /**
- * 
- * @author Giuseppe
+ * @author Giuseppe Giorgi <giuseppe.giorgi1987@gmail.com>
+ *
  *
  *Singleton : Bill Pugh technique
  */
