@@ -1,5 +1,9 @@
 package robots;
 
+/**
+ * @author Giuseppe Giorgi <giuseppe.giorgi1987@gmail.com>
+ */
+
 public class AllowedRule extends AbstractRule {
 
 	public AllowedRule(String path, boolean wildcardsAllowed) {		
