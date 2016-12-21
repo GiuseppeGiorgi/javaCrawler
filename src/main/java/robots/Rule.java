@@ -1,7 +1,8 @@
 package robots;
 
-
 /**
+ * @author Giuseppe Giorgi <giuseppe.giorgi1987@gmail.com>
+ *
  * Regole robots.txt
  * se un particolare path è permesso
  * */
